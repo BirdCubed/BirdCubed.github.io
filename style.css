@@ -102,6 +102,8 @@ header img {
 .text-container {
     flex: 0 1 34em;
     font-size: 1.25rem;
+    align-items: center;
+    text-align: center;
 }
 
 h1 {
@@ -111,6 +113,8 @@ h1 {
 .text-container p {
     margin: .75em 0 1em 0;
     font-size: 1.25rem;
+    align-items: center;
+    text-align: center;
 }
 
 .cta-button {
