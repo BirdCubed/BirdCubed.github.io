@@ -116,6 +116,7 @@ header img {
 }
 
 .story-body-text p {
+    line-height: 2;
     flex: 0 1 34em;
     font-size: 1.25rem;
     align-items: center;
@@ -135,6 +136,14 @@ h1 {
     text-align: center;
 }
 
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--space-md) 0;
+    margin-top: var(--space-lg);
+    border-top: 1px solid var(--border);
+}
+
 .cta-button {
     display: inline-block;
     text-decoration: none;
@@ -142,6 +151,20 @@ h1 {
     padding: .75em 1,25em;
     border-radius: .5em;
     font-weight: 600;
+}
+
+.chapter-button {
+    font-size: 2em;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-color);
+    padding: .75em 1.25em;
+    border-radius: .5em;
+    font-weight: 600;
+}
+
+.chapter-button:hover {
+    text-decoration: underline;
 }
 
 .cta-button:hover {
