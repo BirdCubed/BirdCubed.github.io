@@ -236,3 +236,14 @@ section {
 .tabs input[type="radio"]:checked + label {
     background: var(--base-color);
 }
+
+.icontext {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.iconimage {
+    width: 32px;
+    height: auto;
+}
